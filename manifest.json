@@ -1,0 +1,14 @@
+{
+  "documentAccess": "dynamic-page",
+  "api": "1.0.0",
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "devAllowedDomains": ["*"],
+    "reasoning": "Plugin fetches translation datasets from runtime-configured external endpoints (static and dynamic sheet APIs), so outbound HTTPS access cannot be constrained to a fixed host list during design workflows."
+  },
+  "id": "com.Figma  I18n Sync",
+  "name": "I18n Sync",
+  "main": "src/main/main.ts",
+  "ui": "src/ui/ui.tsx",
+  "editorType": ["figma"]
+}
